@@ -1,0 +1,22 @@
+[project]
+name = "fakestoreplaywright"
+version = "1.0.0"
+description = "Test automation practise:"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+license = "ISC"
+requires-python = ">=3.8"
+dependencies = [
+    "playwright",
+    "pytest",
+    "pytest-playwright"
+]
+
+
+
+#[tool.pytest.ini_options]
+addopts = "-n auto --html=report.html --self-contained-html"  # Run tests in parallel and generate HTML report
+testpaths = "tests"  # Directory containing tests
+
+

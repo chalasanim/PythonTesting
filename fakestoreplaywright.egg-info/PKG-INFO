@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: fakestoreplaywright
+Version: 1.0.0
+Summary: Test automation practise:
+Author-email: Your Name <your.email@example.com>
+License-Expression: ISC
+Requires-Python: >=3.8
+Requires-Dist: playwright
+Requires-Dist: pytest
+Requires-Dist: pytest-playwright
