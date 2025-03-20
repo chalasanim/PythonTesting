@@ -1,2 +1,0 @@
-# PythonTesting
-Practice Pytest
