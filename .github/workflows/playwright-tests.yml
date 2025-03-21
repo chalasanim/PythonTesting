@@ -25,7 +25,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest playwright
+          pip install pytest playwright 
+          pip install pytest-xdist pytest-html
 
       # Install Playwright browsers
       - name: Install Playwright browsers
