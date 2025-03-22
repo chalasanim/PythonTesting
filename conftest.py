@@ -39,7 +39,7 @@ def page(browser):
 @pytest.fixture(autouse=True)
 def setup(page):
     # Set a base URL (optional)
-    page.set_default_timeout(10000)  # Set default timeout
+    page.set_default_timeout(100000)  # Set default timeout
     #page.goto("http://127.0.0.1:3000")  # Replace with your base URL
     page.goto("https://fakestore.testelka.pl/")
 
