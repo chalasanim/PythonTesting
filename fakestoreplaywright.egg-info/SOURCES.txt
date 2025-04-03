@@ -1,7 +1,0 @@
-pyproject.toml
-fakestoreplaywright.egg-info/PKG-INFO
-fakestoreplaywright.egg-info/SOURCES.txt
-fakestoreplaywright.egg-info/dependency_links.txt
-fakestoreplaywright.egg-info/requires.txt
-fakestoreplaywright.egg-info/top_level.txt
-tests/test_launch_fakestore.py
